@@ -1,0 +1,61 @@
+
+/* Apply basic styling to the whole page */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333333;
+}
+
+/* Website heading section */
+header {
+    background-color: #243b55;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+/* Navigation links */
+nav {
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #243b55;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+/* Main dashboard content */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Mobile screen styling */
+@media (max-width: 600px) {
+    nav {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    main {
+        margin: 15px;
+        padding: 18px;
+    }
+}
